@@ -46,8 +46,8 @@ export default function Home() {
             />
           )}
         </div>
-        <section className="text-center lg:text-left ml-0 space-y-10 py-8 lg:flex lg:flex-col lg:justify-center">
-          <div className="space-y-10 py-8 lg:min-h-[80%] flex flex-col justify-center">
+        <section className=" text-center lg:text-left ml-0 space-y-10 lg:flex lg:flex-col lg:justify-center">
+          <div className="space-y-10 py-8 lg:flex-1 flex flex-col justify-center">
             <div>
               <h1 className="font-bold text-4xl lg:text-[4rem] leading-[4rem]">
                 Make remote work
@@ -61,7 +61,7 @@ export default function Home() {
               <Button label={"Learn more"} />
             </div>
           </div>
-          <div className="flex flex-e gap-2 ">
+          <div className="flex items-end gap-2 ">
             <div className="mx-auto">
               <ClientDatabiz />
             </div>

@@ -24,4 +24,12 @@ function useWindowSize() {
   return windowSize;
 }
 
+//  const size = useWindowSize();
+//  const sizeLimit = 1024;
+//  const [isSmall, setIsSmall] = useState(size.width >= sizeLimit ? false : true);
+
+//  useEffect(() => {
+//    size.width >= sizeLimit ? setIsSmall(false) : setIsSmall(true);
+//  }, [size]);
+
 export default useWindowSize;
